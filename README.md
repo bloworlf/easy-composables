@@ -13,4 +13,18 @@ _Description and how to use will come later_
 
 Add a dialog to your project that can serve multiple purposes.
 
-![DialogComponent](https://github.com/bloworlf/easy-composables/blob/main/images/DialogComponent.png?raw=true)
+![DialogComponent](https://github.com/bloworlf/easy-composables/blob/main/images/DialogComponent.png)
+
+| Parameter       |                 Type                 | Nullable | Description |
+|-----------------|:------------------------------------:|---------:|------------:|
+| modifier        |               Modifier               |        ✓ |           - |
+| title           |                String                |        ✓ |             |
+| message         |                String                |        ✓ |             |
+| icon            |             ImageVector              |        ✓ |             |
+| content         | @Composable (ColumnScope.() -> Unit) |        ✓ |             |
+| cancellable     |               Boolean                |        ✓ |             |
+| positiveText    |                String                |        ✓ |             |
+| onPositiveClick |              () -> Unit              |        ✓ |             |
+| negativeText    |                String                |        ✓ |             |
+| onNegativeClick |              () -> Unit              |        ✓ |             |
+| onDismiss       |              () -> Unit              |        ✗ |             |
